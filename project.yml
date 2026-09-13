@@ -1,0 +1,13 @@
+name: TestApp
+targets:
+  TestApp:
+    type: application
+    platforms:
+      - iOS
+    settings:
+      base:
+        INFORMATION_PROPERTYLIST: info.plist
+        PRODUCT_BUNDLE: com.example.TestApp
+        PRODUCT_NAME: TestApp
+    sources:
+      - Sources
